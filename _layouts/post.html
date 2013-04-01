@@ -1,5 +1,9 @@
 ---
 layout: default
 ---
-{% include JB/setup %}
-{% include themes/twitter/post.html %}
+<div class="post">
+    
+        <h2><span class="title">{{ page.title }}</span></h2>
+        <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">{{ page.date | date: "%A, %B %d, %Y" }}</span>
+        {{ content }}
+</div>
