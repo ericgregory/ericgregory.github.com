@@ -1,7 +1,7 @@
 /* This sheet draws liberally and lovingly from Twitter Boostrap. */
 
 @font-face {
-    font-family: 'ChunkFiveRegular';
+    font-family: 'ChunkFive';
     src: url('{{ ASSET_PATH }}/font/Chunkfive-webfont.eot');
     src: url('{{ ASSET_PATH }}/font/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
          url('{{ ASSET_PATH }}/font/Chunkfive-webfont.woff') format('woff'),
@@ -13,7 +13,7 @@
 }
 
 html, body {
-                background-color: #ffffff;
+                background-color: none;
             }
       body {
                 margin: 0;
@@ -33,14 +33,6 @@ html, body {
                 margin-left: 20px;
                 margin-bottom: 10px;
             }
-
-        h2 {
-
-        }
-
-        h3 {
-            margin-bottom: 10px;
-        }
     
 }
 
