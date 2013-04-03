@@ -50,6 +50,7 @@ nav  {
                 line-height: 150%;
                 max-width: 800px;
             }
+
 article a:link {
 	color: #34495E;
 	text-decoration: underline;
@@ -167,21 +168,36 @@ img {
 
 /* Mobile styles */
 
-@media screen and (max-width:632px) {
+@media screen and (max-width:1024px) {
 
-	.lcolumn {
-		opacity: 0.4;
+	.lcolumn img {
+		opacity: 0.1;
 	}
 
 	.rcolumn {
-		padding-left: 10%;
+		padding-left: 0px;
+	}
+
+	.shuffle {
+        margin-left: 0px; 
+	}
+
+	h1 { 
+		display: block;
+    	margin-top: 10px;
+    	margin-left: 0;
+    	margin-bottom: 0px; 
 	}
 
 	header {
 		text-align: center;
+		margin-left: 0px;
+		padding-left: 0px;
+		margin-bottom: 30px;
 	}
 
 	article {
+		padding-left: 10%;
 		padding-right: 10%;
 	}
 }
