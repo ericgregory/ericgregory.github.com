@@ -7,45 +7,36 @@
          url('{{ ASSET_PATH }}/font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+			}
 
-}
+html, body { 
+		   background-color: none; 
+		   }
 
-html, body {
-                background-color: none;
-            }
-      body {
-                margin: 0;
-                background-image:url('{{ ASSET_PATH }}/me2.png');
-                background-repeat:no-repeat;
-                background-attachment:fixed;
-                background-position:0% 35%; 
-                background-size: 25%;
-                font-family: ChunkFive, Georgia;
-                padding-left: 30%;
-                font-size: 200%;
-                color: #333333;
-            }
-        h1 {
-                display: inline-block;
-                margin-top: 10px;
-                margin-left: 20px;
-                margin-bottom: 10px;
-            }
-    
-}
+body 	{ 
+		margin: 0;
+       	font-family: ChunkFive, Georgia;
+       	font-size: 200%;
+       	color: #333333; 
+   	 	}
+        
+h1  	{ 
+		display: inline-block;
+    	margin-top: 10px;
+    	margin-left: 20px;
+    	margin-bottom: 10px; 
+		}
 
-            header { 
-                font-family: ChunkFive, Georgia;
-                font-size: 200%;
-                color: #333333;
-                border-bottom: 1px solid #000;  
-            }
+header { 
+            font-family: ChunkFive, Georgia;
+            font-size: 100%;
+            color: #333333;  
+       }
 
-            nav {
-                background-color: #ffffff;
-                height: 7%;
-                width: 100%;
-            }
+nav  {
+        height: 7%;
+        width: 100%;
+     }
 
             div {
                 font-family: Georgia;
@@ -69,49 +60,65 @@ article a:visited {
 	text-decoration: underline;
 }
 
-        .shuffle {
-        	margin-left: 20px; 
-        }
+.lcolumn {
 
-        .example {
+}
+
+.lcolumn img {
+	max-width: 346px;
+	position: fixed;
+	left: 0%;
+	top: 5%;
+	z-index: -1;
+}
+
+.rcolumn {
+	padding-left: 30%;
+}
+
+.shuffle {
+        			margin-left: 20px; 
+}
+
+.example {
+            		color: #333333;
+            		cursor: pointer;
+            		padding: 4px;
+            		border-radius: 4px;
+            		text-decoration: none;
+}
+
+.example:link {
+        			color: #333333;
+        			text-decoration: none;
+}
+        
+.example:hover {
+            		background: #F2F2F2;
+}
+        
+.example.dropdown-open {
+            		background: #888;
+            		color: #FFF;
+}
+        
+.example.dropdown-open:after {
+            		color: #FFF;
+}
+
+.title {
             color: #333333;
             cursor: pointer;
-            padding: 4px;
             border-radius: 4px;
             text-decoration: none;
         }
 
-        .example:link {
-        	color: #333333;
-        	text-decoration: none;
-        }
-        
-        .example:hover {
-            background: #F2F2F2;
-        }
-        
-        .example.dropdown-open {
-            background: #888;
-            color: #FFF;
-        }
-        
-        .example.dropdown-open:after {
-            color: #FFF;
-        }
-
-        .title {
-            color: #333333;
-            cursor: pointer;
-            border-radius: 4px;
-            text-decoration: none;
-        }
-
-        .title:link {
+	.title:link {
         	color: #333333;
         	text-decoration: none;
         }
 
-        .title:visited {
+	.title:visited {
         	color: #333333;
         	text-decoration: none;
         }
@@ -124,7 +131,7 @@ article a:visited {
             color: #FFF;
         }
 
-        .post {
+.post {
             margin-bottom: 75px;
         }
 
@@ -132,7 +139,7 @@ img {
   /* Responsive images (ensure images don't scale beyond their parents) */
 
   max-width: 100%;
-  /* Part 1: Set a maxium relative to the parent */
+  /* Part 1: Set a maximum relative to the parent */
 
   width: auto\9;
   /* IE7-8 need help adjusting responsive images */
@@ -144,6 +151,42 @@ img {
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
+
+.img-rounded {
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.img-circle {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
+
+
+/* Mobile styles */
+
+@media screen and (max-width:632px) {
+
+	.lcolumn {
+		opacity: 0.4;
+	}
+
+	.rcolumn {
+		padding-left: 10%;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	article {
+		padding-right: 10%;
+	}
+}
+
+/* Print styles */
 
 @media print {
   * {
@@ -197,56 +240,6 @@ img {
   }
 }
 
-.img-rounded {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
 
-.img-circle {
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
-}
 
-/* Mobile layouts */
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { /* STYLES GO HERE */ 
-
- body {
-                margin: 0;
-                background-image:none;
-                background-repeat:no-repeat;
-                background-attachment:fixed;
-                background-position:0% 0%; 
-                background-size:auto 100%; 
-                padding-left:10%;
-                padding-right:10%;
-      } 
-
- header span { 
-                margin-left: 20px; 
-            }
-
-            nav {
-                background-color: #ffffff;
-                height: 7%;
-                width: 100%;
-            }
-
-            div {
-                font-family: Georgia;
-            }
-
-            article {
-                padding-left: 5%;
-                padding-right: 5%;
-                font-family: inherit;
-                font-size: 55%;
-                line-height: 150%;
-            }
-
-}

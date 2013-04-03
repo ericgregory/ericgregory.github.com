@@ -36,13 +36,7 @@ html, body {
             }
       body {
                 margin: 0;
-                background-image:url('{{ ASSET_PATH }}/me2.png');
-                background-repeat:no-repeat;
-                background-attachment:fixed;
-                background-position:0% 35%; 
-                background-size: 25%;
                 font-family: 'ChunkFive', Georgia;
-                padding-left: 30%;
                 font-size: 200%;
                 color: #333333;
             }
@@ -51,6 +45,16 @@ html, body {
 </head>
 
 <body>
+
+<!-- Sketch of me on the computer by J Gootzeit -->
+
+<div class="lcolumn">
+    <img src="me2.png">
+</div>
+
+<!-- End sketch, begin right column -->
+
+<div class="rcolumn">
     <header>
         <nav>
 		<h1><a href="http://ericmg.com" class="example">Eric Gregory</a></h1>
@@ -62,12 +66,13 @@ html, body {
 {{ content }}    
 </article>
 </div>
+</div>
 
 <!-- Notes dropdown -->
 
 <div id="notes" class="dropdown dropdown-tip" style="padding-left: 0px; font-size: 50%;">
     <ul class="dropdown-menu">
-        <li><a href="#1">Day to day</a></li>
+        <li><a href="#1">Day-to-day</a></li>
         <li><a href="#2">Coding</a></li>
         <li><a href="#3">Growing things</a></li>
         <li><a href="#4">Recipes</a></li>
