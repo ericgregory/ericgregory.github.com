@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Eric's notes</title>
+        <title>Eric's stories</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
@@ -41,6 +41,23 @@ html, body {
                 color: #333333;
             }
 
+article a:link {
+                font-size:130%;
+                text-decoration: none;
+                margin-bottom: 2px;
+                padding-bottom: 2px;
+                padding-top: 20px;
+        }
+
+.here {
+            padding: 4px;
+            border-radius: 4px;
+            background: #888;
+            color: #FFF;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
 </style>
 </head>
 
@@ -50,7 +67,7 @@ html, body {
 
 <div class="lcolumn">
     <img src="{{ ASSET_PATH }}/me2.png">
-</div>
+
 
 <!-- Begin right column -->
 
@@ -58,12 +75,14 @@ html, body {
     <header>
         <nav>
 		<h1><a href="{{ ASSET_PATH }}/index.html" class="example">Eric Gregory</a></h1>
-        <span><a href="{{ ASSET_PATH }}/Stories.html" class="example shuffle">stories</a> and <a href="#" data-dropdown="#notes" class="example">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i></a></span>
+        <span><a href="{{ ASSET_PATH }}/Stories.html" class="here shuffle">stories</a> and <a href="#" data-dropdown="#notes" class="example">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i></a></span>
         </nav>
 	</header>
 <div>
 <article>
-{{ content }}    
+
+{{ content }}
+
 </article>
 </div>
 </div>
@@ -73,11 +92,11 @@ html, body {
 
 <div id="notes" class="dropdown dropdown-tip" style="padding-left: 0px; font-size: 50%;">
     <ul class="dropdown-menu">
-        <li><a href="#1">Life</a></li>
-        <li><a href="#2">Coding</a></li>
-        <li><a href="#3">Growing things</a></li>
-        <li><a href="#4">Recipes</a></li>
+        <li><a href="#1">Coding</a></li>
+        <li><a href="#2">Growing things</a></li>
+        <li><a href="#3">Recipes</a></li>
         <li class="dropdown-divider"></li>
+        <li><a href="#4">Life</a></li>
         <li><a href="#5">Contact</a></li>
     </ul>
 </div>

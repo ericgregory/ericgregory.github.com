@@ -148,7 +148,6 @@ img {
   height: auto;
   /* Part 2: Scale the height according to the width, otherwise you get stretching */
 
-  vertical-align: top;
   border: 0;
   -ms-interpolation-mode: bicubic;
 }
@@ -180,6 +179,7 @@ img {
 
 	.shuffle {
         margin-left: 0px; 
+        margin-top: 2px;
 	}
 
 	h1 { 
