@@ -172,7 +172,7 @@ img {
 {
     color: #333333;
     width: 100%;    
-    max-width: 600px;
+    max-width: 800px;
     margin: 0px;
     text-align: center;
 }
@@ -189,7 +189,7 @@ img {
     display: block;
     background-color: transparent;    
     padding: 5px;
-    width: 20%;
+    width: 25%;
     margin-left: 40%;
     cursor: pointer;
     -webkit-border-radius: 6px;
