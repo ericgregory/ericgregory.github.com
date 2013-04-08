@@ -136,6 +136,8 @@ article a:visited {
             margin-bottom: 75px;
         }
 
+/* Image styles */
+
 img {
   /* Responsive images (ensure images don't scale beyond their parents) */
 
@@ -164,6 +166,71 @@ img {
   border-radius: 500px;
 }
 
+/* Expanding image galleries */
+
+.imageBox
+{
+    color: #333333;
+    width: 100%;    
+    max-width: 600px;
+    margin: 0px;
+    text-align: center;
+}
+
+.imageBox div
+{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.imageBox label
+{
+    display: block;
+    background-color: transparent;    
+    padding: 5px;
+    width: 20%;
+    margin-left: 35%;
+    cursor: pointer;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+
+}
+
+.imageBox label:hover
+{    
+    background-color: #F2F2F2;
+}
+
+.toggle
+{
+    display: none;
+}
+
+.toggle ~ div
+{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: 0s all ease-in;
+    -moz-transition: 0s all ease-in;
+    -webkit-transition: 0s all ease-in;
+    -o-transition: 0s all ease-in;
+    -ms-transition: 0s all ease-in;
+}
+
+.toggle:checked ~ div
+{
+    height: 100%;
+    margin: 5px 0 10px 0;
+}
+
+.toggle:checked ~ label
+{
+    background-color: transparent;
+    color: #333333;    
+}
 
 /* Mobile styles */
 
@@ -194,6 +261,7 @@ img {
 		margin-left: 0px;
 		padding-left: 0px;
 		margin-bottom: 30px;
+		font-size: 95%;
 	}
 
 	article {
