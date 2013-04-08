@@ -3,4 +3,6 @@ server: true
 permalink: /:categories/:title
 pygments: true
 markdown: rdiscount
+rdiscount: 
+  extensions: [smart]
 paginate: 5
