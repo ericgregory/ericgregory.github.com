@@ -268,6 +268,18 @@ img {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
+
+	.example:hover {	background: transparent;
+}
+        
+	.example.dropdown-open {
+            		background: transparent;
+            		color: #333333;
+}
+        
+	.example.dropdown-open:after {
+            		color: #333333;
+}
 }
 
 /* Print styles */
