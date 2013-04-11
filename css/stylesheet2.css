@@ -202,7 +202,8 @@ img {
 .imageBox label
 {
     display: block;
-    background-color: transparent;    
+    background-color: #34495E;    
+    color: #ffffff;
     padding: 5px;
     width: 25%;
     margin-left: 40%;
@@ -215,7 +216,7 @@ img {
 
 .imageBox label:hover
 {    
-    background-color: #F2F2F2;
+    background-color: #24394d;
 }
 
 .toggle
