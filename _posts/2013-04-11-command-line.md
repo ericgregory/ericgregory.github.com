@@ -12,7 +12,7 @@ Running notes and reminders on Unix commands.
 <code>hostname</code>: what's this computer's name?  
 <code>mkdir</code>: make directory  
 <code>rmdir</code>: remove directory  
-<code>touch</code>: like touch of god, make empty file  
+<code>touch</code>: make empty file  
 <code>cp</code>: copy file (<code>-r</code> for dir)  
 <code>mv</code>: move file  
 <code>less</code>: view file (q to escape)  
