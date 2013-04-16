@@ -18,7 +18,7 @@ Lightspeed, May 2011
 [Miguel and the Viatura](http://futurismic.com/2010/06/01/new-fiction-miguel-and-the-viatura-by-eric-gregory/)  
 Futurismic, June 2010
 
-> Miguel still wasn’t certain how Joaõ managed to find the old man. He’d done it countless times now, on birthdays and holidays, even in the years before he quit school and left the Boys’ Campus. He must have had some contact of a contact among the excitadors, Miguel guessed, some crooked (or earnest) young recruit at Buraq. Another Boner, maybe. Miguel knew so little about his brother’s life: it spun in a wild, elliptical orbit which now and then intersected with Miguel, tugged him onto brief, strange paths.
+> Miguel knew so little about his brother’s life: it spun in a wild, elliptical orbit which now and then intersected with Miguel, tugged him onto brief, strange paths.
 
 [The Earth of Yunhe]()  
 Shine: An Anthology of Optimistic Science Fiction  
