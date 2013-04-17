@@ -71,6 +71,18 @@ article a:visited {
         			margin-left: 20px; 
 }
 
+.back {
+  margin-left: 30%;
+  margin-bottom: 30px;
+  font-family: 'ChunkFive';
+}
+
+.forward {
+  margin-right: 30%;
+  margin-bottom: 30px;
+  font-family: 'ChunkFive';
+}
+
 .example {
             		color: #333333;
             		cursor: pointer;
@@ -192,7 +204,7 @@ img {
 .imageBox label
 {
     display: block;
-    background-color: #34495E;    
+    background-color: #333333;    
     color: #ffffff;
     padding: 5px;
     width: 70px;

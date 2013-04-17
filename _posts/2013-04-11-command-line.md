@@ -17,6 +17,7 @@ Running notes and reminders on Unix commands.
 <code>mv</code>: move file  
 <code>less</code>: view file (q to escape)  
 <code>cat</code>: view file without stopping or paging  
+<code>ctrl-c</code>: stop program
   
 <code>pbcopy <</code>: copy file contents to clipboard  
 <code>open -a [application.app] [filename]</code>: open file with a given application  
