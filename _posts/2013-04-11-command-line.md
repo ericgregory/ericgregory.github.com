@@ -18,8 +18,11 @@ Running notes and reminders on Unix commands.
 <code>less</code>: view file (q to escape)  
 <code>cat</code>: view file without stopping or paging  
 <code>ctrl-c</code>: stop program
+<code>sudo !!</code>: run last command as root
   
 <code>pbcopy <</code>: copy file contents to clipboard  
 <code>open -a [application.app] [filename]</code>: open file with a given application  
 <code>chsh -s /bin/bash</code>: change shell  
+
 <code>sips -Z 600 *.jpg</code>: batch resize, retaining aspect ratio, longest side will be 600px  
+<code>dig +short txt [searchterm].wp.dg.cx</code>: Ask Wikipedia for a text record and short URL via DNS
