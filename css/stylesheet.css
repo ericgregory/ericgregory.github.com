@@ -75,18 +75,20 @@ article a:visited {
   margin-left: auto;
   margin-right: auto;
   clear: left;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-family: 'ChunkFive';
   vertical-align: center;
+  display: inline;
 }
 
 .forward {
   margin-left: auto;
   margin-right: auto;
   clear: right;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   font-family: 'ChunkFive';
   vertical-align: center;
+  display: inline;
 }
 
 .example {
