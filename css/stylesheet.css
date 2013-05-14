@@ -71,21 +71,8 @@ article a:visited {
         			margin-left: 20px; 
 }
 
-.back {
-  margin-left: auto;
-  margin-right: auto;
-  clear: left;
-  padding-bottom: 30px;
-  font-family: 'ChunkFive';
-  vertical-align: center;
-  display: inline;
-}
-
-.forward {
-  margin-left: auto;
-  margin-right: auto;
-  clear: right;
-  padding-bottom: 30px;
+.paging {
+  padding-bottom: 100px;
   font-family: 'ChunkFive';
   vertical-align: center;
   display: inline;

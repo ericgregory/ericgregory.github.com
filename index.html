@@ -28,14 +28,14 @@ keywords: eric gregory,blog,writing,science fiction,html,css,javascript,programm
 
     {% endif %}
   {% endfor %}
-<div class="back">
+<div class="paging">
     {% if paginator.next_page %}
       <a href="/page{{paginator.next_page}}" style="text-decoration: none; color: #333333;"><i class="icon-chevron-left"></i> Older </a>
     {% endif %}
   </div>
   
     {% if paginator.previous_page %}
-      <div class="forward" style="float:right;">
+      <div class="paging" style="float:right;">
     {% endif %}
   
     {% if paginator.previous_page %}
@@ -50,4 +50,3 @@ keywords: eric gregory,blog,writing,science fiction,html,css,javascript,programm
     {% if paginator.previous_page %}
       
     {% endif %}
-  

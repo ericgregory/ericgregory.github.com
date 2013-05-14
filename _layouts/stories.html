@@ -41,15 +41,49 @@ html, body {
                 color: #333333;
             }
 
+article {
+    font-size: 50%;
+}
+
 article a:link {
-                font-size:130%;
                 text-decoration: none;
                 margin-bottom: 2px;
                 padding-bottom: 2px;
                 padding-top: 20px;
+                color: #333333;
         }
 
-.here {
+ol {
+display: block;
+list-style-type: decimal;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+
+li {
+    clear:both;
+    width:100%;
+    margin:0 0 1em 0;
+    padding:0;
+    overflow:hidden
+}
+
+.number {
+    float: right;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+.title {
+    background-color: #ffffff;
+    padding-right: 5px;
+}
+
+.youarehere {
             padding: 4px;
             border-radius: 4px;
             color: #333333;
@@ -75,12 +109,11 @@ article a:link {
     <header>
         <nav>
         <h1><a href="#" data-dropdown="#social" class="example">Eric Gregory</a></h1>
-        <span><a href="{{ ASSET_PATH }}/Stories.html" class="here shuffle">stories</a><span style="margin-left:4px; margin-right:4px;">and</span><a href="#" data-dropdown="#notes" class="example">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i></a></span>
+        <span><a href="{{ ASSET_PATH }}/Stories.html" class="youarehere shuffle">stories</a><span style="margin-left:4px; margin-right:4px;">and</span><a href="#" data-dropdown="#notes" class="example">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i></a></span>
         </nav>
 	</header>
-<div>
+<div style="margin-top: 30px;">
 <article>
-    <p></p>
 
 {{ content }}
 
