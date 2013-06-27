@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Eric's notes</title>
+        <title>Stories and notes</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
@@ -13,13 +13,11 @@
 
     <link type="text/css" rel="stylesheet" href="{{ ASSET_PATH }}/css/stylesheet.css" />
     <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.min.css">
-        <link type="text/css" rel="stylesheet" href="{{ ASSET_PATH }}/css/jquery.dropdown.css" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ ASSET_PATH }}/js/jquery.dropdown.js"></script>
 
 <style>
 
-@font-face {
+@font-face 
+  {
     font-family: 'ChunkFive';
     src: url('{{ ASSET_PATH }}/font/Chunkfive-webfont.eot');
     src: local('ChunkFive'),
@@ -29,18 +27,20 @@
          url('{{ ASSET_PATH }}/font/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
     font-weight: normal;
     font-style: normal;
+  }
 
-}
-
-html, body {
-                background-color: none;
-            }
-      body {
-                margin: 0;
-                font-family: 'ChunkFive', Georgia;
-                font-size: 200%;
-                color: #333333;
-            }
+html, body 
+  {
+    background-color: none;
+  }
+      
+body 
+  {
+    margin: 0;
+    font-family: 'ChunkFive', Georgia;
+    font-size: 200%;
+    color: #333333;
+  }
 
 </style>
 </head>
@@ -53,13 +53,29 @@ html, body {
     <img src="{{ ASSET_PATH }}/me2.png">
 </div>
 
-<!-- Begin right column -->
+<!-- Content column -->
 
 <div class="rcolumn">
     <header>
         <nav>
-        <h1><a href="#" data-dropdown="#social" class="example">Eric Gregory</a></h1>
-        <span><a href="{{ ASSET_PATH }}/Stories.html" class="example shuffle">stories</a><span style="margin-left:4px; margin-right:4px;">and</span><a href="#" data-dropdown="#notes" class="example">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i></a></span>
+        <h1><a href="{{ ASSET_PATH }}/index.html" class="name">Eric Gregory</a></h1>
+        <span><a href="{{ ASSET_PATH }}/Stories.html" class="name shuffle">stories</a><span style="margin-left:4px; margin-right:4px;">and</span><div class="navBox"><input type="checkbox" class="navtoggle" id="check-pic1" /><label for="check-pic1"><span style="font-family: 'ChunkFive';">notes <i class="icon-caret-down" style="padding-left: 0px; font-size: 24px;"></i>
+              </span></span>
+                </label>
+                <div>
+
+                  <a href="https://twitter.com/ericgregory"><i class="icon-twitter" style="padding-right:5px; padding-left:5px;"></i></a>
+                  <a href="https://github.com/ericgregory"><i class="icon-github-alt" style="padding-right:5px;"></i></a>
+                  <a href="http://www.ericmg.com/rss.xml"><i class="icon-rss" style="padding-right:35px;"></i></a>
+                    <span style="font-size: 47%; vertical-align: middle;"><strong>Topics</strong>:</span> 
+                    <a href="{{ ASSET_PATH }}/daily.html">Daily,</a> 
+                    <a href="{{ ASSET_PATH }}/computers.html">Computers,</a> 
+                    <a href="{{ ASSET_PATH }}/recipes.html">Recipes</a>
+        
+                </div>
+      
+
+      </span>
         </nav>
     </header>
 <div>
@@ -68,25 +84,6 @@ html, body {
 </article>
 </div>
 </div>
-</div>
-
-<!-- Notes dropdown -->
-
-<div id="notes" class="dropdown dropdown-tip" style="padding-left: 0px; font-size: 50%;">
-    <ul class="dropdown-menu">
-        <li><a href="{{ ASSET_PATH }}/daily.html">Daily</a></li>
-        <li><a href="{{ ASSET_PATH }}/computers.html">Computers</a></li>
-        <li><a href="{{ ASSET_PATH }}/recipes.html">Recipes</a></li>
-    </ul>
-</div>
-
-<div id="social" class="dropdown dropdown-tip" style="padding-left: 0px; font-size: 50%;">
-    <ul class="dropdown-menu">
-        <li><a href="{{ ASSET_PATH }}/index.html"><i class="icon-home" style="padding-right:5px;"></i> Home</a></li>
-        <li><a href="https://twitter.com/ericgregory"><i class="icon-twitter" style="padding-right:5px;"></i> Twitter</a></li>
-        <li><a href="https://github.com/ericgregory"><i class="icon-github-alt" style="padding-right:5px;"></i> GitHub</a></li>
-        <li><a href="http://www.ericmg.com/rss.xml"><i class="icon-rss" style="padding-right:5px;"></i> RSS</a></li>
-    </ul>
 </div>
 
 <!-- Google analytics! -->

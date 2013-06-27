@@ -2,9 +2,9 @@
 layout: stories
 ---
 
-Here's a more-or-less complete listing of my short stories published from 2004 to present, starting with the most recent. This page should get a little sleeker and more useful soon, but in the meantime:
+Here's a more-or-less complete listing of my short stories published from 2004 to present, starting with the most recent:
 <p></p>
-<div style="margin-top: 40px;">
+<div style="margin-top: 30px;">
 </div>
    
 **[The Sympathy](http://www.lightspeedmagazine.com/fiction/the-sympathy/)**   

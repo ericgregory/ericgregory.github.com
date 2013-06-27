@@ -10,8 +10,8 @@ Last week's setup and reception for Julia's MFA thesis show, "Unearthly Bodies."
 <img src="{{ ASSET_PATH }}/images/02.jpg" class="img-rounded" style="border-radius: 5px; display: block; margin-left: auto; margin-right: auto; margin-top: 30px;">
 
 <div class="imageBox">
-                <input type="checkbox" class="toggle" id="check-pic1" />
-                <label for="check-pic1">
+                <input type="checkbox" class="toggle" id="check-pic2" />
+                <label for="check-pic2">
                 <span style="font-family: 'ChunkFive';">more</span> <i class="icon-caret-down"></i>
                 </label>
                 <div>
@@ -25,4 +25,4 @@ Last week's setup and reception for Julia's MFA thesis show, "Unearthly Bodies."
 <img src="{{ ASSET_PATH }}/images/08.jpg" class="img-rounded" style="border-radius: 5px;">
 
 </div>
-            </div>
+</div>
