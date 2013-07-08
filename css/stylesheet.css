@@ -1,128 +1,104 @@
 
-html, body { 
-		   background-color: none; 
-		   }
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900);
 
-body 	{ 
-		margin: 0;
-       	font-family: ChunkFive, Georgia;
-       	font-size: 200%;
-       	color: #333333; 
-   	 	}
-        
-h1  	{ 
-		display: inline-block;
-    	margin-top: 10px;
-    	margin-left: 20px;
-    	margin-bottom: 10px; 
-		}
-
-header { 
-      font-family: ChunkFive, Georgia;
-      font-size: 100%;
-      color: #333333;  
-  }
-
-nav  {
-      height: 7%;
-      width: 100%;
+body a:link {
+     color: #34495E;
+     text-decoration: underline;
 }
 
-div {
-      font-family: Georgia;
+body a:visited {
+     color: #2C3E50;
+     text-decoration: underline;
 }
 
-article {
-      padding-left: 5%;
-      padding-right: 15%;
-      font-family: inherit;
-      font-size: 50%;
-      line-height: 150%;
-      max-width: 800px;
+#main {
+    padding-right: 10px;
 }
 
-article a:link {
-	   color: #34495E;
-	   text-decoration: underline;
-}
-
-article a:visited {
-	   color: #2C3E50;
-	   text-decoration: underline;
-}
-
-.lcolumn {
-}
-
-.lcolumn img {
-	max-width: 346px;
+#me {
   position: absolute;
-	left: 0%;
-	top: 5%;
-	z-index: -1;
+  left: 0%;
+  top: 5%;
+  z-index: -1;
+  opacity: 0.1;
 }
 
-.rcolumn {
-	padding-left: 33%;
+#banner {
+    padding-left: 435px;
+    padding-top: 7%;
+    line-height: 2em;
 }
 
-.shuffle {
-  margin-left: 20px; 
+#title {
+    font-size: 50px;
+    font-family: 'Lato', san-serif;
+    font-weight: 900;
+}
+
+#byline {
+    font-size: 32px;
+    font-family: 'Lato', san-serif;
+}
+
+#title a:link, #title a:visited, #byline a:link, #byline a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+#umbrellas {
+  color: #BDC3C7;
+    font-size: 22px;
+    font-family: 'Lato', san-serif;
+    font-weight: 300;
+}
+
+#umbrellas a:link, #umbrellas a:visited {
+    color: #7F8C8D;
+    text-decoration: underline;
+}
+
+#content {
+    font-size: 16px;
+    font-family: 'Lato', san-serif;
+    font-weight: 400;    
+    padding-left: 435px;
+    padding-top: 30px;
+    padding-right: 9%;
+    line-height: 1.5em;
+    color: #333333;
+    max-width: 600px;
+}
+
+h2 a:link, h2 a:visited {
+      color: #333333;
+      text-decoration: none;
+}
+
+#elsewhere {
+    color: #BDC3C7;
+    font-size: 22px;
+    font-family: 'Lato', san-serif;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#elsewhere a:link, #elsewhere a:visited {
+    color: #7F8C8D;
+    text-decoration: underline;
 }
 
 .paging {
   padding-bottom: 100px;
-  font-family: 'ChunkFive';
+  font-family: 'Lato';
   vertical-align: center;
   display: inline;
+  font-weight: 900;
 }
-
-.name {
-            		color: #333333;
-            		cursor: pointer;
-            		padding: 4px;
-            		border-radius: 4px;
-            		text-decoration: none;
-}
-
-.name:link {
-        			color: #333333;
-        			text-decoration: none;
-}
-        
-.name:active 
-  {
-    font-size: 105%;
-  }
-
-.title {
-            color: #333333;
-            cursor: pointer;
-            border-radius: 4px;
-            text-decoration: none;
-        }
-
-	.title:link {
-        	color: #333333;
-        	text-decoration: none;
-        }
-
-	.title:visited {
-        	color: #333333;
-        	text-decoration: none;
-        }
-        
-        .title:hover {
-            background: #F2F2F2;
-        }
-
-        .title:focus {
-            color: #FFF;
-        }
 
 .post {
-            margin-bottom: 55px;
-        }
+  margin-bottom: 55px;
+}
 
 pre {
 -moz-border-radius: 15px;
@@ -155,18 +131,6 @@ img {
 
   border: 0;
   -ms-interpolation-mode: bicubic;
-}
-
-.img-rounded {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
-
-.img-circle {
-  -webkit-border-radius: 500px;
-  -moz-border-radius: 500px;
-  border-radius: 500px;
 }
 
 /* Expanding image galleries */
@@ -234,134 +198,24 @@ img {
     color: #333333;    
 }
 
-/* NavBox */
-
-.navBox
-{
-    display: inline;
-    margin: 0px;
-}
-
-.navBox div
-{
-    background-color: #272b2f;
-    color: #ffffff;
-    box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
-    border-radius: 5px 0px 0px 5px;
-    height: 0;
-    margin: 0;
-    overflow: hidden;
-    float: right;
-    width: 97%;
-    display: inline-block;
-}
-
-.navBox div a:link, .navBox div a:visited, .navBox div a:active
-{
-    color: #ffffff;
-    font-family: Georgia;
-    font-size: 50%;
-    text-decoration: none;
-    vertical-align: middle;
-}
-
-.navBox label
-  {
-    display: inline;
-    width: 100%;   
-    color: #333333;
-    padding: 5px;
-    cursor: pointer;
-  }
-
-.navBox label:active 
-  {    
-    font-size: 115%;
-  }
-
-.navtoggle
-  {
-    display: none;
-  }
-
-.navtoggle ~ div
-  {
-    height: 0;
-    margin: 0;
-    overflow: hidden;
-    transition: 0s all ease;
-    -moz-transition: 0s all ease;
-    -webkit-transition: 0s all ease;
-    -o-transition: 0s all ease;
-    -ms-transition: 0s all ease;
-  }
-
-.navtoggle:checked ~ div
-  {
-    height: 100%;
-    margin: 7px 0 30px 0;
-    padding: 10px;
-  }
-
-.navtoggle:checked ~ label
-  {
-    background-color: transparent;
-    color: #333333;    
-  }
-
 /* Mobile styles */
 
-@media screen and (max-width:1096px) {
+@media screen and (max-width:900px) {
 
-.lcolumn img 
-  {
-		opacity: 0.1;
-    position: fixed;
-	}
+#me {
+  opacity: 0.05;
+}
 
-	.rcolumn 
-  {
-		padding-left: 0px;
-	}
+#banner {
+    padding-left: 10%;
+}
 
-.shuffle 
-  {
-    margin-left: 0px; 
-    margin-top: 2px;
-	}
-
-h1 
-  { 
-		display: block;
-    margin-top: 10px;
-    margin-left: 0;
-    margin-bottom: -6px; 
-	}
-header 
-  {
-		text-align: center;
-		margin-left: 0px;
-		padding-left: 0px;
-		margin-bottom: 30px;
-		font-size: 95%;
-	}
-
-article 
+#content 
   {
     padding-left: 10%;
-    padding-right: 10%;
-    font-family: inherit;
-    font-size: 50%;
+    padding-right: 8%;
     line-height: 150%;
-    max-width: 650px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-.navBox div
-  {
-    border-radius: 0px 0px 0px 0px;
-    width: 100%;
+    max-width: 500px;
   }
 }
 

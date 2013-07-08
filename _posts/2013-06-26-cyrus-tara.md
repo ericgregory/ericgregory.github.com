@@ -12,7 +12,7 @@ Cyrus and Tara got married the weekend before last, in a ridiculously beautiful 
 <div class="imageBox">
                 <input type="checkbox" class="toggle" id="check-pic3" />
                 <label for="check-pic3">
-                <span style="font-family: 'ChunkFive';">More</span> <i class="icon-caret-down"></i>
+                <span style="font-family: 'Lato';">More &nbsp;</span><i class="icon-caret-down"></i>
                 </label>
                 <div>
 

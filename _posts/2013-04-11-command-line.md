@@ -17,7 +17,7 @@ Running notes and reminders on Unix commands.
 <code>mv</code>: move file  
 <code>less</code>: view file (q to escape)  
 <code>cat</code>: view file without stopping or paging  
-<code>ctrl-c</code>: stop program
+<code>ctrl-c</code>: stop program  
 <code>sudo !!</code>: run last command as root
   
 <code>pbcopy <</code>: copy file contents to clipboard  
