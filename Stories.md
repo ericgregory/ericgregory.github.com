@@ -2,7 +2,7 @@
 layout: stories
 ---
 
-Here's a more-or-less complete listing of my short stories published from 2004 to present, starting with the most recent:
+Short stories published from 2004 to present, starting with the most recent:
 <p></p>
 <div style="margin-top: 30px;">
 </div>
