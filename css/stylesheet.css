@@ -208,6 +208,7 @@ img {
 
 #banner {
     padding-left: 10%;
+    padding-right: 8%;
 }
 
 #content 
@@ -217,6 +218,15 @@ img {
     line-height: 150%;
     max-width: 500px;
   }
+
+#umbrellas {
+  line-height: 1.7em;
+}
+
+#elsewhere {
+  line-height: 1.7em;
+
+}
 }
 
 /* Print styles */
