@@ -100,6 +100,10 @@ h2 a:link, h2 a:visited {
   margin-bottom: 55px;
 }
 
+code {
+  font-size: 12px;
+}
+
 pre {
 -moz-border-radius: 15px;
 -webkit-border-radius: 15px;
