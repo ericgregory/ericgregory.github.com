@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Installing RVM on Lion"
+title: "Ruby: Installing RVM on Lion"
 category: computers
+published: true
 ---
 
 [RVM](https://rvm.io/rvm/) is a version manager for the Ruby programming language, letting you install, run, and default to different versions of the language on the same computer. Ruby 1.8.7 is built-in on OSX Lion and I'm running a few programs that depend on it, but 1.8.7 is several years old and about to be deprecated -- if I want to learn some Ruby, I should probably use a more recent version like 2.0.0. 
