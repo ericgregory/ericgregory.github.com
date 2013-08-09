@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Bash basics and miscellany
+title: "Bash: Basics and miscellany"
 category: computers
 published: true
 ---
 
-Running notes and reminders on Unix commands.
-
+Running notes and reminders on basic bash (and some other useful commands, in no particular order, that wouldn't really make sense in another post).  
+  
 <code>cd</code>: change directory  
 <code>ls</code>: list contents of directory  
 <code>pwd</code>: print working directory  
