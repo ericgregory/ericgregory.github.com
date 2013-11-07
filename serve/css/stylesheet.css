@@ -1,0 +1,292 @@
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
+
+body a:link {
+     color: #34495E;
+     text-decoration: underline;
+}
+
+body a:visited {
+     color: #2C3E50;
+     text-decoration: underline;
+}
+
+#main {
+    padding-right: 10px;
+}
+
+#me {
+  position: absolute;
+  left: 0%;
+  top: 5%;
+  z-index: -1;
+  opacity: 0.1;
+}
+
+#banner {
+    padding-left: 435px;
+    padding-top: 7%;
+    line-height: 2em;
+}
+
+#title {
+    font-size: 50px;
+    font-family: 'Lato', san-serif;
+    font-weight: 900;
+}
+
+#byline {
+    font-size: 32px;
+    font-family: 'Lato', san-serif;
+}
+
+#title a:link, #title a:visited, #byline a:link, #byline a:visited {
+    text-decoration: none;
+    color: #333333;
+}
+
+#umbrellas {
+  color: #BDC3C7;
+    font-size: 22px;
+    font-family: 'Lato', san-serif;
+    font-weight: 300;
+}
+
+#umbrellas a:link, #umbrellas a:visited {
+    color: #7F8C8D;
+    text-decoration: underline;
+}
+
+#content {
+    font-size: 16px;
+    font-family: 'Lato', san-serif;
+    font-weight: 400;    
+    padding-left: 435px;
+    padding-top: 30px;
+    padding-right: 9%;
+    line-height: 1.5em;
+    color: #333333;
+    max-width: 600px;
+}
+
+h2 a:link, h2 a:visited {
+      color: #333333;
+      text-decoration: none;
+}
+
+#elsewhere {
+    color: #BDC3C7;
+    font-size: 22px;
+    font-family: 'Lato', san-serif;
+    font-weight: 300;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+#elsewhere a:link, #elsewhere a:visited {
+    color: #7F8C8D;
+    text-decoration: underline;
+}
+
+.paging {
+  padding-bottom: 100px;
+  font-family: 'Lato';
+  vertical-align: center;
+  display: inline;
+  font-weight: 900;
+}
+
+.post {
+  margin-bottom: 55px;
+}
+
+code {
+  font-size: 14px;
+}
+
+pre {
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+background-color: #272b2f;
+color: #ffffff;
+margin-left: 5%;
+margin-right: 20%;
+border-bottom: 1px solid #535f6b;
+border-radius: 15px;
+box-shadow: 0 1px 5px rgba(0,0,0,0.4) inset, 0 0 20px rgba(0,0,0,0.2) inset;
+padding: 15px;
+display: inline-block;
+white-space: pre-wrap; 
+}
+
+/* Image styles */
+
+img {
+  /* Responsive images (ensure images don't scale beyond their parents) */
+
+  max-width: 100%;
+  /* Part 1: Set a maximum relative to the parent */
+
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* Expanding image galleries */
+
+.imageBox
+{
+    color: #333333;
+    width: 100%;    
+    max-width: 800px;
+    margin: 0px;
+    text-align: center;
+}
+
+.imageBox div
+{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.imageBox label
+{
+    display: block;
+    background-color: #BDC3C7;    
+    color: #ffffff;
+    padding: 5px;
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+
+}
+
+.imageBox label:hover, .imageBox label:active
+{    
+    background-color: #7F8C8D;
+}
+
+.toggle
+{
+    display: none;
+}
+
+.toggle ~ div
+{
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    transition: 0s all ease;
+    -moz-transition: 0s all ease;
+    -webkit-transition: 0s all ease;
+    -o-transition: 0s all ease;
+    -ms-transition: 0s all ease;
+}
+
+.toggle:checked ~ div
+{
+    height: 100%;
+    margin: 5px 0 10px 0;
+}
+
+.toggle:checked ~ label
+{
+    background-color: transparent;
+    color: #333333;    
+}
+
+/* Mobile styles */
+
+@media screen and (max-width:900px) {
+
+#me {
+  opacity: 0.05;
+}
+
+#banner {
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+#content 
+  {
+    padding-left: 10%;
+    padding-right: 8%;
+    line-height: 150%;
+    max-width: 500px;
+  }
+
+#umbrellas {
+  line-height: 1.7em;
+}
+
+#elsewhere {
+  line-height: 1.7em;
+
+}
+}
+
+/* Print styles */
+
+@media print {
+  * {
+    text-shadow: none !important;
+    color: #000 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: "";
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  img {
+    max-width: 100% !important;
+  }
+  @page  {
+    margin: 0.5cm;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
+
+
+

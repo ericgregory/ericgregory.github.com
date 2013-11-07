@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stories and notes</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+    <!-- shim for HTML5 support in IE6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="/css/stylesheet.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div id="main">
+    <span id="me"><img src="/me2.png"></span>
+    <header>
+        <div id="banner">
+    <span id="title">
+    <a href="/index.html">Stories and notes</a>
+    </span><br><span id="byline">
+    <a href="http://ericmg.com/">by Eric Gregory</a>
+    </span>
+    <br>
+        &nbsp;
+        <br>
+        <span id="umbrellas"><a href="/Stories.html">Fiction</a>, <a href="/computers.html">code</a>, <a href="/recipes.html">food</a>, and <a href="/daily.html">more</a>.</span>
+        </div>
+    </header>
+
+<div id="content">
+  <article>
+<div class="post">
+    
+        <h2 style="margin-bottom: 0px; padding-bottom: 0px;">Ruby: Installing RVM on Lion</span></h2>
+        <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px; margin-top: 0px;">Monday, April 08, 2013</span>
+        <p><a href="https://rvm.io/rvm/">RVM</a> is a version manager for the Ruby programming language, letting you install, run, and default to different versions of the language on the same computer. Ruby 1.8.7 is built-in on OSX Lion and I&rsquo;m running a few programs that depend on it, but 1.8.7 is several years old and about to be deprecated &mdash; if I want to learn some Ruby, I should probably use a more recent version like 2.0.0.</p>
+
+<p>So that&rsquo;s where RVM comes in. Since I&rsquo;m a slightly doofus-y beginner and installations can differ according to terminal shell configurations, setting it up took some muddling through. These are breadcrumbs for me rather than instructions for anyone else; if you&rsquo;re trying to get started with RVM, you should use the official <a href="https://rvm.io/rvm/install/">installation guide</a>. But if you&rsquo;re on Lion and getting the error <code>rvm: command not found</code> after install, you might try step two below.</p>
+
+<p>In terminal, install the latest stable release:</p>
+
+<pre><code>\curl -L https://get.rvm.io | bash -s stable
+</code></pre>
+
+<p>You may or may not have a <code>.bash_profile</code> in your root directory. Since the filename starts with a dot, it&rsquo;s invisible by default; you can view hidden files in a given directory with</p>
+
+<pre><code>ls -a
+</code></pre>
+
+<p>If you have a <code>.bash_profile</code>, you&rsquo;ll need to update it so your shell can find RVM:</p>
+
+<pre><code>echo "source $HOME/.rvm/scripts/rvm" &gt;&gt; ~/.bash_profile
+</code></pre>
+
+<p>In theory, you&rsquo;ve got RVM powers now. I started to install Ruby 2.0.0</p>
+
+<pre><code>rvm install 2.0.0
+</code></pre>
+
+<p>but got an error &mdash; RVM needed lots of missing packages to complete the install. I had to enable <code>autolib</code> so RVM could take care of those:</p>
+
+<pre><code>rvm autolibs enable
+</code></pre>
+
+<p>Ran the install prompt again and that did it. Hurrah!</p>
+
+</div>
+
+
+
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'ericmg'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+    
+</article>
+<div id="elsewhere">
+Also: <a href="https://twitter.com/ericgregory">Twitter</a>, <a href="https://github.com/ericgregory">GitHub</a>, and <a href="http://www.ericmg.com/rss.xml">RSS</a>.
+  <div>
+</div>
+</div>
+
+<!-- Google analytics! -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39800967-1', 'ericmg.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

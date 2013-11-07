@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stories and notes</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+
+    <!-- shim for HTML5 support in IE6-8 -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="/css/stylesheet.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div id="main">
+    <span id="me"><img src="/me2.png"></span>
+    <header>
+        <div id="banner">
+    <span id="title">
+    <a href="/index.html">Stories and notes</a>
+    </span><br><span id="byline">
+    <a href="http://ericmg.com/">by Eric Gregory</a>
+    </span>
+    <br>
+        &nbsp;
+        <br>
+        <span id="umbrellas"><a href="/Stories.html">Fiction</a>, <a href="/computers.html">code</a>, <a href="/recipes.html">food</a>, and <a href="/daily.html">more</a>.</span>
+        </div>
+    </header>
+
+<div id="content">
+  <article>
+  
+    
+
+<div class="post">
+      
+        <h2 style="margin-bottom: 3px;"><a href="/daily/cyrus-tara" class="title">Cyrus and Tara</a></h2>
+         <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">Wednesday, June 26, 2013</span>
+        <p></p>
+
+
+<p>Cyrus and Tara got married the weekend before last, in a ridiculously beautiful ceremony on a ridiculously beautiful day.</p>
+
+<p></p>
+
+
+<p><img src="/images/13.jpg" style="display: block; margin-left: auto; margin-right: auto; margin-top: 30px;"></p>
+
+<div class="imageBox">
+                <input type="checkbox" class="toggle" id="check-pic3" />
+                <label for="check-pic3">
+                <span style="font-family: 'Lato';">More &nbsp;</span><i class="icon-caret-down"></i>
+                </label>
+                <div>
+
+<img src="/images/14.jpg">
+<img src="/images/15.jpg">
+
+</div>
+</div>
+
+
+      
+
+</div>
+
+    
+  
+    
+
+<div class="post">
+      
+        <h2 style="margin-bottom: 3px;"><a href="/recipes/weirdly-good-chicken" class="title">Weirdly good roasted chicken</a></h2>
+         <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">Tuesday, May 14, 2013</span>
+        <p>Nothing fancy here, but I&rsquo;m forgetful. More a checklist than a recipe, but it&rsquo;s also my only meal in regular rotation that feels pretty fail-safe:</p>
+
+<ul>
+<li>Get a ~4lb whole chicken</li>
+<li>Put a lot of pepper and garlic powder on it, also some salt and lemon zest</li>
+<li>Cook on stovetop briefly, just until color starts to change</li>
+<li>Set the chicken on a cooking sheet, put a head of garlic inside, surround with maybe brussels sprouts, sweet potatoes, chopped onions, and more garlic</li>
+<li>Cook at 375 for 1hr and 15mins</li>
+</ul>
+
+
+      
+
+</div>
+
+    
+  
+    
+
+<div class="post">
+      
+        <h2 style="margin-bottom: 3px;"><a href="/daily/still-brussels" class="title">Still brusselsing</a></h2>
+         <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">Friday, April 26, 2013</span>
+        <p></p>
+
+
+<p>Not dead yet!</p>
+
+<p></p>
+
+
+<p><img src="/images/12.jpg" style="display: block; margin-left: 0px; margin-right: auto; margin-top: 30px; margin-bottom: 30px;"></p>
+
+      
+
+</div>
+
+    
+  
+    
+
+<div class="post">
+      
+        <h2 style="margin-bottom: 3px;"><a href="/computers/python-pip" class="title">Python: pip and virtualenv</a></h2>
+         <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">Thursday, April 25, 2013</span>
+        <p><code>pip</code> is a package manager for Python modules; <code>virtualenv</code> turns a given directory tree into an isolated Python environment so you can use different module versions for different projects on the same machine. They really go hand-in-hand, and I realized pretty quickly that they&rsquo;re more or less mandatory if you&rsquo;re working on multiple projects in Python. <a href="http://dabapps.com/blog/introduction-to-pip-and-virtualenv-python/">This guide</a> explains both modules and the setup process super well &mdash; below is a quick-and-dirty reference for feeling out your Python environment and then getting up and running.</p>
+
+<p>While not strictly necessary, I&rsquo;d like to see which modules I have installed by default. So in terminal:</p>
+
+<pre><code>pydoc modules
+</code></pre>
+
+<p>Okay, no <code>pip</code> (which is itself just a Python module). To install it, we can use the older, creakier, and not-particularly-recommended package manager, <code>easy_install</code>. This is fine for grabbing <code>pip</code>, but you don&rsquo;t really want to use it for anything else. (This may require sudo.)</p>
+
+<pre><code>[sudo] easy_install pip
+</code></pre>
+
+<p>We <em>could</em> use this installation of pip to install modules globally (which may require sudo too)</p>
+
+<pre><code>[sudo] pip install [module]
+</code></pre>
+
+<p>but we&rsquo;re probably not looking to do that too often. Instead, just as we used the not-quite-recommended <code>easy_install</code> to grab a better tool, we&rsquo;re going to use this global <code>pip</code> to grab <code>virtualenv</code>:</p>
+
+<pre><code>sudo pip install virtualenv
+</code></pre>
+
+<p>Now we can head to the directory where we want to work on our first project. I made a directory called <code>pyground</code> for fooling around, so I <code>cd</code> to that and enter</p>
+
+<pre><code>virtualenv env 
+</code></pre>
+
+<p>This creates a new Python virtual environment inside the current directory, storing everything at <code>your_directory_name/env/</code>. Now (automatically packed in with your virtual environment!) you have a version of <code>pip</code> local to this environment, and this is what you&rsquo;ll want to use to install a module to your working directory. To use this version of <code>pip</code>:</p>
+
+<pre><code>env/bin/pip install [module]
+</code></pre>
+
+<p>Note that you won&rsquo;t have to use sudo here, because you&rsquo;re not installing globally. You can check to see which modules you&rsquo;ve installed via pip in this environment with</p>
+
+<pre><code>env/bin/pip freeze
+</code></pre>
+
+<p>And to run virtualenv&rsquo;s local version of Python, you&rsquo;ll use</p>
+
+<pre><code>env/bin/python 
+</code></pre>
+
+<p>And that&rsquo;s it. You can repeat this process for as many environments as you like. The walkthrough linked above offers a way to cut down on typing and temporarily make your shell recognize a given environment&rsquo;s pips and pythons as the default, but I kind of prefer to type out the env/bins.</p>
+
+      
+
+</div>
+
+    
+  
+    
+
+<div class="post">
+      
+        <h2 style="margin-bottom: 3px;"><a href="/daily/bias" class="title">Bias towards the easy</a></h2>
+         <span style="font-size: 80%; margin-bottom: 5px; margin-left: 25px;">Tuesday, April 23, 2013</span>
+        <p>From <a href="http://www.washingtonpost.com/blogs/wonkblog/wp/2013/04/23/this-is-why-you-should-buy-neil-irwins-new-book/">Ezra Klein</a>:</p>
+
+<blockquote><p>People talk a lot about media bias. Some say there&rsquo;s a bias towards liberals or conservatives. Others say it&rsquo;s towards
+ostentatious even-handedness, or sensationalism. But one of the most dangerous media biases is simply the bias towards events,
+sources and narratives that are easy for those of us in the media to cover.</p></blockquote>
+
+      
+
+</div>
+
+    
+  
+<div class="paging">
+    
+      <a href="/page3" style="text-decoration: none; color: #333333;"><i class="icon-chevron-left"></i> Older </a>
+    
+  </div>
+  
+    
+      <div class="paging" style="float:right;">
+    
+  
+    
+      <a href="
+        
+          /
+        " style="text-decoration: none; color: #333333;"> Onward <i class="icon-chevron-right"></i></a></div>
+    
+  
+    
+      
+        
+</article>
+<div id="elsewhere">
+Also: <a href="https://twitter.com/ericgregory">Twitter</a>, <a href="https://github.com/ericgregory">GitHub</a>, and <a href="http://www.ericmg.com/rss.xml">RSS</a>.
+  <div>
+</div>
+</div>
+
+<!-- Google analytics! -->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-39800967-1', 'ericmg.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
