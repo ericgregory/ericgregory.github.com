@@ -1,21 +1,12 @@
 
-@import url(http://fonts.googleapis.com/css?family=Lato:400,900);
-
-body a:link {
-     color: #34495E;
-     text-decoration: underline;
-}
-
-body a:visited {
-     color: #2C3E50;
-     text-decoration: underline;
-}
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 #main {
     padding-right: 10px;
 }
 
-#me {
+#sketch {
   position: absolute;
   left: 0%;
   top: 5%;
@@ -23,77 +14,66 @@ body a:visited {
   opacity: 0.1;
 }
 
-#banner {
-    padding-left: 435px;
-    padding-top: 7%;
-    line-height: 2em;
+#sidebar {
+    position: absolute;
+    top: 70px;
+    right: 73%;
+    padding-left: 5%;
+    max-width: 390px;
+    font-family: 'Raleway', Helvetica;
+    text-align: right;
 }
 
-#title {
-    font-size: 50px;
-    font-family: 'Lato', san-serif;
-    font-weight: 900;
+#name {
+    font-size: 24pt;
+    font-weight: bold;
 }
 
 #byline {
-    font-size: 32px;
-    font-family: 'Lato', san-serif;
+    font-size: 14pt;
 }
 
-#title a:link, #title a:visited, #byline a:link, #byline a:visited {
+#subpages {
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#name a:link, #name a:visited, #byline a:link, #byline a:visited, 
+#subpages a:link, #subpages a:visited, #title a:link, #title a:visited {
     text-decoration: none;
     color: #333333;
 }
 
-#umbrellas {
-  color: #BDC3C7;
-    font-size: 22px;
-    font-family: 'Lato', san-serif;
-    font-weight: 300;
-}
-
-#umbrellas a:link, #umbrellas a:visited {
-    color: #7F8C8D;
-    text-decoration: underline;
+.nav-collapse,
+.nav-collapse ul,
+.nav-collapse a {
+  list-style: none;
+  text-decoration: none;
 }
 
 #content {
-    font-size: 16px;
-    font-family: 'Lato', san-serif;
-    font-weight: 400;    
-    padding-left: 435px;
-    padding-top: 30px;
+    position: absolute;
+    left: 35%;
+    top: 60px;
     padding-right: 9%;
+    max-width: 600px;
+    font-size: 16px;
+    font-family: 'Raleway', san-serif;
+    font-weight: 400;    
     line-height: 1.5em;
     color: #333333;
-    max-width: 600px;
 }
 
-h2 a:link, h2 a:visited {
-      color: #333333;
-      text-decoration: none;
-}
-
-#elsewhere {
-    color: #BDC3C7;
-    font-size: 22px;
-    font-family: 'Lato', san-serif;
-    font-weight: 300;
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-
-#elsewhere a:link, #elsewhere a:visited {
-    color: #7F8C8D;
-    text-decoration: underline;
+#copy {
+  font-family: 'Lato', san-serif;
 }
 
 .paging {
   padding-bottom: 100px;
-  font-family: 'Lato';
+  font-family: 'Raleway';
   vertical-align: center;
   display: inline;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .post {

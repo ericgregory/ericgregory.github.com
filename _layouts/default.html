@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Stories and notes</title>
+        <title>Strangerland by Eric Gregory</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
@@ -18,18 +18,28 @@
 
 <body>
 <div id="main">
-    <span id="me"><img src="{{ ASSET_PATH }}/me2.png"></span>
+
+    <span id="sketch"><img src="{{ ASSET_PATH }}/me3.png"></span>
+
     <header>
-        <div id="banner">
-    <span id="title">
-    <a href="{{ ASSET_PATH }}/index.html">Stories and notes</a>
-    </span><br><span id="byline">
-    <a href="http://ericmg.com/">by Eric Gregory</a>
-    </span>
-    <br>
-        &nbsp;
+    <div id="sidebar">
+    <span id="name"><strong><a href="{{ ASSET_PATH }}/index.html">Strangerland</a></strong></span>
+    <br><span id="byline"><a href="http://ericmg.com/">by Eric Gregory</a></span>
+    <br>&nbsp;
         <br>
-        <span id="umbrellas"><a href="{{ ASSET_PATH }}/Stories.html">Fiction</a>, <a href="{{ ASSET_PATH }}/computers.html">code</a>, <a href="{{ ASSET_PATH }}/recipes.html">food</a>, and <a href="{{ ASSET_PATH }}/daily.html">more</a>.</span>
+        <span id="subpages">
+        <nav class="nav-collapse">
+          <ul>
+            <li><strong><a href="{{ ASSET_PATH }}/Stories.html">Stories</a></strong></li>
+            <li><strong><a href="{{ ASSET_PATH }}/computers.html">Code</a></strong></li>
+            <li><a href="{{ ASSET_PATH }}/recipes.html">Recipes</a></li>
+            <br>
+            <li><a href="https://twitter.com/ericgregory">Twitter</a></li>
+            <li><a href="https://github.com/ericgregory">GitHub</a></li>
+            <li><a href="http://www.ericmg.com/rss.xml">RSS</a></li>
+          </ul>
+        </nav>
+        </span>
         </div>
     </header>
 
@@ -37,10 +47,6 @@
   <article>
 {{ content }}    
 </article>
-<div id="elsewhere">
-Also: <a href="https://twitter.com/ericgregory">Twitter</a>, <a href="https://github.com/ericgregory">GitHub</a>, and <a href="http://www.ericmg.com/rss.xml">RSS</a>.
-  <div>
-</div>
 </div>
 
 <!-- Google analytics! -->
