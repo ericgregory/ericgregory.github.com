@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 Short stories published from 2004 to present, starting with the most recent:
