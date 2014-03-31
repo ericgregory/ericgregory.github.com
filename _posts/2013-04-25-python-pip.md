@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Python: pip and virtualenv"
-category: computers
+category: code
 tags: 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mystery science
-category: daily
+category: writing
 ---
 
 Stuart Feinstein on [science and uncertainty](http://nautil.us/issue/2/uncertainty/certainly-not):
