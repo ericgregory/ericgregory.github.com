@@ -1,7 +1,9 @@
-auto: true
-server: true
+name:	'Strangerland'
+url:	'http://ericmg.com'
+author:	'Eric Gregory'
+
+relative_permalinks: false
 permalink: /:categories/:title
-pygments: true
 markdown: rdiscount
 rdiscount: 
   extensions: [smart]

@@ -3,7 +3,6 @@ layout: post
 title: "Still brusselsing"
 category: daily
 ---
-<p></p>
 Not dead yet!
 <p></p>
 

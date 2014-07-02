@@ -3,10 +3,8 @@ layout: default
 title: Eric Gregory | Stories
 keywords: eric gregory,blog,writing,science fiction,fiction
 ---
-<div class="post">
-<h2 style="margin-bottom: 0px; padding-bottom: 0px;"><span id="title">Stories</span></h2>
-<span style="font-family: 'Lato', san-serif;">
-<p>
+<span style="font-family: 'Raleway'; font-size: 24pt;"><strong>Fiction</strong></span>
+  
 Short stories published from 2004 to present, starting with the most recent:
 <p></p>
 <div style="margin-top: 30px;">

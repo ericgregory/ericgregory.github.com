@@ -1,52 +1,36 @@
 ---
-layout: default
-title: Eric Gregory
-description: This is the notebook of Eric Gregory, writer and editor of stories and more.
-keywords: eric gregory,blog,writing,science fiction,html,css,javascript,programming,coding,ruby,python
+layout:    default
+title:     Strangerland by Eric Gregory
+blogfeed:  true
 ---
-  {% for post in paginator.posts %}
-    {% if post.link_url %}
+{% for post in paginator.posts %}
 
-<div class="post">
-    
-        <h2 style="margin-bottom: 0px; padding-bottom: 0px;"><span id="title"><a href="{{ post.link_url }}">{{ post.title }}</a></span></h2>
-        <span style="font-size: 80%; margin-bottom: 5px; margin-top: 0px;">{{ post.date | date: "%A, %B %d, %Y" }}</span>
-        <span style="font-family: 'Lato', san-serif;">{{ post.content }}</span>
-        
+<div class="articles">
+
+	<h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+	<p class="post-meta">
+		{{ post.date | date: "%A, %B %d, %Y" }} 
+	</p>
+
+	<br>
+	{{ post.content }}
 </div>
 
-    {% else %}
+{% endfor %}
 
-<div class="post">
-
-        <h2 style="margin-bottom: 0px; padding-bottom: 0px;"><span id="title"><a href="{{ post.url }}">{{ post.title }}</a></span></h2>
-        <span style="font-size: 80%; margin-bottom: 5px; margin-top: 0px;">{{ post.date | date: "%A, %B %d, %Y" }}</span>
-        <span style="font-family: 'Lato', san-serif;">{{ post.content }}</span>
-      
-
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+	<ul>
+{% if paginator.previous_page %}
+		<li class="prev"><a href="/{% if paginator.previous_page != 1 %}page{{ paginator.previous_page }}{% endif %}">&#60;</a></li>
+{% endif %}
+		<li><a {% if paginator.page == 1 %}class="active" {% endif %}href="/">1</a></li>
+{% for count in (2..paginator.total_pages) %}
+		<li><a {% if paginator.page == count %}class="active" {% endif %}href="/page{{ count }}">{{ count }}</a></li>
+{% endfor %}
+{% if paginator.next_page %}
+		<li class="next"><a href="/page{{ paginator.next_page }}">&#62;</a></li>
+{% endif %}
+	</ul>
 </div>
-
-    {% endif %}
-  {% endfor %}
-<div class="paging">
-    {% if paginator.next_page %}
-      <a href="/page{{paginator.next_page}}" style="text-decoration: none; color: #333333;"><i class="icon-chevron-left"></i> Older </a>
-    {% endif %}
-  </div>
-  
-    {% if paginator.previous_page %}
-      <div class="paging" style="float:right;">
-    {% endif %}
-  
-    {% if paginator.previous_page %}
-      <a href="
-        {% if paginator.previous_page == 1 %}
-          /
-        {% else %}
-          /page{{ paginator.previous_page }}
-        {% endif %}" style="text-decoration: none; color: #333333;"> Onward <i class="icon-chevron-right"></i></a></div>
-    {% endif %}
-  
-    {% if paginator.previous_page %}
-      
-    {% endif %}
+{% endif %}

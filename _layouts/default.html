@@ -1,56 +1,54 @@
-<!DOCTYPE html>
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}<!doctype html>
 <html>
-    <head>
-        <title>Strangerland by Eric Gregory</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
+		<title>{% if page.title %}{{ page.title }}{% else %}Strangerland by Eric Gregory{% endif %}</title>
+		
+		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+{% if page.blogfeed %}
+		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
+{% endif %}
+		<link rel="stylesheet" href="/css/main.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<div id="banner">
+				<span id="title"><strong>Strangerland</strong></span>
+    			<br><span id="byline">by Eric Gregory</span>
+    			</div>
+				<nav><ul>
+					<li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">About</a></li>
+					<li><a {% if location == 'fiction' %}class="active" {% endif %}href="/fiction/">Fiction</a></li>
+					<li><a {% unless location == 'about' or location == 'fiction' or location == 'contact' %}class="active" {% endunless %}href="/">Blog</a></li>
+					<li><a {% if location == 'contact' %}class="active" {% endif %}href="/contact/">Contact</a></li>
+				</ul></nav>
+			</header>
+			<section>
+				{{ content }}
+			</section>
+			<footer>
+{% if page.nobio != true %}{% if location != '' %}
+				<img class="avatar" src="https://pbs.twimg.com/profile_images/3406213967/fafdea5c2d7ef96a0220af719bf6b3fa_400x400.png">
+{% endif %}
+				<p><a href="/about/">Eric Gregory</a> is a writer and editor in Carrboro, North Carolina.</p>
+				<p><a href="http://twitter.com/ericgregory">Twitter</a> | <a href="http://github.com/ericgregory">GitHub</a></p>
+{% endif %}
+				<p>
+					<small>© {{ site.time | date: '%Y' }} Eric Gregory</small><br />
+					<small>Built on <a href="http://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/orderedlist/minimal">Minimal</a>.</small>
+				</p>
+			</footer>
+		</div>
+		<script src="/js/scale.fix.js"></script>
+		<script type="text/javascript">
 
-    <!-- shim for HTML5 support in IE6-8 -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <link type="text/css" rel="stylesheet" href="{{ ASSET_PATH }}/css/stylesheet.css" />
-    <link rel="stylesheet" href="{{ ASSET_PATH }}/css/font-awesome.min.css">
-
-</head>
-
-<body>
-<div id="main">
-
-    <header>
-    <div id="sidebar">
-    <span id="name"><strong><a href="{{ ASSET_PATH }}/index.html">Strangerland</a></strong></span>
-    <br><span id="byline"><a href="http://ericmg.com/">by Eric Gregory</a></span>
-    <br>&nbsp;
-        <br>
-        <span id="subpages">
-        <nav class="nav-collapse">
-          <ul>
-            <li><strong><a href="{{ ASSET_PATH }}/Stories.html">Fiction</a></strong></li>
-            <li><strong><a href="{{ ASSET_PATH }}/about.html">About</a></strong></li>
-            <li><strong><a href="{{ ASSET_PATH }}/contact.html">Contact</a></strong></li>
-            <br>
-            <li><a href="https://twitter.com/ericgregory">Twitter</a></li>
-            <li><a href="https://github.com/ericgregory">GitHub</a></li>
-            <li><a href="http://www.ericmg.com/rss.xml">RSS</a></li>
-          </ul>
-        </nav>
-        </span>
-        </div>
-    </header>
-
-<div id="content">
-  <article>
-{{ content }}    
-</article>
-</div>
-
-<!-- Google analytics! -->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
@@ -58,6 +56,7 @@
   ga('create', 'UA-39800967-1', 'ericmg.com');
   ga('send', 'pageview');
 
-</script>
-</body>
+  	</script>
+
+	</body>
 </html>
