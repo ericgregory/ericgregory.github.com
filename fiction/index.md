@@ -10,6 +10,14 @@ Short stories published from 2004 to present, starting with the most recent:
 <div style="margin-top: 30px;">
 </div>
    
+[A Spotter's Guide]()   
+<em>Betwixt</em>, Forthcoming  
+
+> They come back for weddings, for funerals, for birthdays. For stupid reasons and for good ones, too. 
+
+<div style="margin-top: 30px;">
+	</div>
+
 [The Sympathy](http://www.lightspeedmagazine.com/fiction/the-sympathy/)   
 <em>Lightspeed</em>, April 2012  
 
