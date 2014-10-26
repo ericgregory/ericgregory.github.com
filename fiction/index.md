@@ -10,8 +10,8 @@ Short stories published from 2004 to present, starting with the most recent:
 <div style="margin-top: 30px;">
 </div>
    
-[A Spotter's Guide]()   
-<em>Betwixt</em>, Forthcoming  
+[A Spotter's Guide](http://betwixtmagazine.com/a-spotters-guide-by-eric-gregory/)   
+<em>Betwixt</em>, October 2014  
 
 > They come back for weddings, for funerals, for birthdays. For stupid reasons and for good ones, too. 
 
