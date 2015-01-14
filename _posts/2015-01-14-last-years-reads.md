@@ -14,7 +14,7 @@ Hypnotic, understated ecological science fiction. The entire Southern Reach tril
 Lynda Barry's work is suffused with this sly wisdom and warmth that makes you feel more grounded and understanding for having read it. (I heard her speak in DC about a year ago, and she's the same way in person). Her latest book collects and expands on her beautifully illustrated syllabi for her art/writing classes at the University of Wisconsin-Madison. Worthwhile for anyone, but there's a ton to learn here if you're a teacher, artist, or writer.
 
 **[How to Get Back to the Forest](http://www.lightspeedmagazine.com/fiction/how-to-get-back-to-the-forest/) by Sofia Samatar**  
-Horror stories and sleepaway camp go hand-in-hand, but this is the only one I've read that has made camp genuinely unsettling. Incisive, eerie science fiction.
+Horror stories and sleepaway camp go hand-in-hand, but this -- incisive and gorgeously-written science fiction rather than outright horror -- is the only one I've read that has rendered the whole concept of camp genuinely unsettling. The story sneaks up on you and then hits hard.
 
 <a href="http://www.indiebound.org/book/9780399162091"><img src="{{ ASSET_PATH }}/images/weareall.jpg" style="display: inline; margin-left: 0px; max-height: 280px; padding-right: 7px;"></a><a href="http://www.indiebound.org/book/9781400065677"><img src="{{ ASSET_PATH }}/images/boneclocks.jpg" style="display: inline; margin-left: 0px; max-height: 280px; padding-right: 7px;"></a><a href="http://www.fantagraphics.com/browse-shop/how-to-be-happy-pre-order--4.html?vmcchk=1"><img src="{{ ASSET_PATH }}/images/howtobehappy.jpg" style="display: inline; max-height: 280px; margin-right: auto;"></a>
 
