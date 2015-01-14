@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Christmas"
-category: daily
+category: blog
 ---
 Hope you have a happy one.
 <p></p>

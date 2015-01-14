@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Garlic-headed buffalo chili"
-category: recipes
+category: blog
 ---
 I've made this for years but never gotten around to measuring or writing down the ingredients. UNTIL NOW. Here's what I used last time -- it came out pretty well and made enough for two.
  

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Colorless Tsukuru Tazaki"
-category: writing
+category: blog
 ---
 
 <img src="{{ ASSET_PATH }}/images/colorless.jpg">

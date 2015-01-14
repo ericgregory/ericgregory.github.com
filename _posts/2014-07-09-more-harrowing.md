@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "More Harrowing"
+categories: blog
 ---
 
 Some exciting reprint news: "The Harrowers" is set to appear in Paula Guran's [*Zombies: More Recent Undead*](http://www.prime-books.com/shop/print-books/zombies-more-recent-dead-edited-by-paula-guran/) from Prime Books. The anthology brings together zombie stories from folks like Maureen McHugh, Roxane Gay, Neil Gaiman, Genevieve Valentine, Mike Carey, Joe Lansdale, and many others: 

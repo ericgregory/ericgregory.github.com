@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Home again"
-category: daily
+category: blog
 ---
 Back in the Triangle:
 <p></p>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Garden postseason"
+categories: blog
 ---
 Colds and travel kept us from the garden for a couple of weeks, and we were surprised to find it still going strong.  
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Another hello world"
-category:
+categories: blog
 ---
 Welcome to the new site! (Or if you’ve never seen the old one: Whew. Hello!)
 

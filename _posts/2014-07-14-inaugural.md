@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Inaugural peppers"
+categories: blog
 ---
 The first peppers of the season:
 <p></p>

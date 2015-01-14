@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Carrboro Open Streets"
-category: daily
+category: blog
 ---
 Parade at Carrboro's Open Streets day.
 <p></p>

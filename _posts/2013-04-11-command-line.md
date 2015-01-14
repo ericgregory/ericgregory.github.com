@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bash: Basics and miscellany"
-category: code
+category: blog
 published: true
 ---
 

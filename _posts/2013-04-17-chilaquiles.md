@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Chilaquiles"
-category: recipes
+category: blog
 ---
 This is definitely a work-in-progress (and based on [an Old El Paso recipe](http://allrecipes.com/recipe/easy-chilaquiles/)), so probably don't expect too much, but it balances laziness and tastiness well enough that it's becoming a pretty regular staple for me.
 <p></p>

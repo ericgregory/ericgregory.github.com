@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Discovery"
-category: daily
+category: blog
 ---
 Earlier this year at the Smithsonian's Udvar-Hazy Air and Space Museum.
 <p></p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Digital Witness
-category: daily
+category: blog
 ---
 The new St. Vincent album is out at the end of the month, and I'm loving what she's released so far. This one's been on repeat in my head for a couple days now.
 

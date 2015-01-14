@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Soundsuit"
-category: daily
+category: blog
 ---
 A soundsuit by Nick Cave at the North Carolina Museum of Art.
 <p></p>

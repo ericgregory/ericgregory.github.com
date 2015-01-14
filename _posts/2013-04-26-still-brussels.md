@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Still brusselsing"
-category: daily
+category: blog
 ---
 Not dead yet!
 <p></p>

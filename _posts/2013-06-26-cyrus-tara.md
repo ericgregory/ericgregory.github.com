@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cyrus and Tara"
-category: daily
+category: blog
 ---
 <p></p>
 Cyrus and Tara got married the weekend before last, in a ridiculously beautiful ceremony on a ridiculously beautiful day.

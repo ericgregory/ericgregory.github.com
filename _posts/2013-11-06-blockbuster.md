@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Blockbuster
-category: writing
+category: blog
 ---
 
 From Teju Cole's *Open City*:

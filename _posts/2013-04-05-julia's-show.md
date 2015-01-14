@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Unearthly bodies"
-category: daily
+category: blog
 ---
 Last week's setup and reception for Julia's MFA thesis show, "Unearthly Bodies." (The pieces got to ride in the back of a truck and watch TV -- we had to do a little more heavy lifting.) This was many many months in the making: I'm in total awe of her.
 <p></p>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Weirdly good roasted chicken"
-category: recipes
+category: blog
 ---
 Nothing fancy here, but I'm forgetful. More a checklist than a recipe, but it's also my only meal in regular rotation that feels pretty fail-safe:
 

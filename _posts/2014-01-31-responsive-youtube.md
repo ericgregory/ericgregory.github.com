@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Responsive YouTube"
-category: code
+category: blog
 ---
 YouTube embeds don't always play super-well with responsive layouts. This [StackExchange thread](http://stackoverflow.com/questions/15844500/shrink-a-youtube-video-to-responsive-width) has a nice solution. In the stylesheet:  
 

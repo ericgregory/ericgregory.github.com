@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby: Installing RVM on Lion"
-category: code
+category: blog
 published: true
 ---
 
