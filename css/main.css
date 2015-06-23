@@ -11,12 +11,12 @@
 #title {
     font-family: 'Raleway', Helvetica;
     font-size: 24pt;
-    font-weight: bold;
+    font-weight: strong;
     line-height: 0.6em;
 }
 
 #byline {
-    font-family: 'Raleway', Helvetica;
+    font-family: 'Lato', Helvetica;
     font-size: 14pt;
     line-height: 0.6em;
 }
@@ -448,8 +448,8 @@ nav li a.active:hover {
 .post-meta,
 .post-meta a {
 	margin-bottom: 0;
-	font-family: 'Raleway';
-	font-size: 80%;
+	font-family: 'Lato';
+	font-size: 80%; 
 	white-space: nowrap;
 },
 .post-meta a:hover,
