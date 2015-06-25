@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
 /* Custom styles */
 
@@ -16,8 +16,9 @@
 }
 
 #byline {
-    font-family: 'Lato', Helvetica;
+    font-family: 'Raleway', Helvetica;
     font-size: 14pt;
+    font-weight: 500;
     line-height: 0.6em;
 }
 
