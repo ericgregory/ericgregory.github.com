@@ -7,9 +7,16 @@ keywords: eric gregory,blog,writing,science fiction,fiction
   
 Short stories published from 2004 to present, starting with the most recent:
 <p></p>
-<div style="margin-top: 30px;">
+<div style="margin-top: 15px;">
 </div>
-   
+[The March Wind](http://smallbeerpress.com/lcrw/2015/07/01/lady-churchills-rosebud-wristlet-no-33/)   
+<em>LCRW</em>, July 2015  
+
+> An occluded town had its own laws of nature. You could only walk there at night. Only someone born in the town could leave and return freely. The name of the place was lost, unreadable and irretrievable to memory, even outside. Inside, the machines were broken. Its constants were its own, but it had its constants. 
+
+<div style="margin-top: 30px;">
+	</div>
+
 [A Spotter's Guide](http://betwixtmagazine.com/a-spotters-guide-by-eric-gregory/)   
 <em>Betwixt</em>, October 2014  
 
