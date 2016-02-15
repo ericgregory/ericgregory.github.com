@@ -1,5 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
-@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700);
 
 /* Custom styles */
 
@@ -9,16 +8,16 @@
 }
 
 #title {
-    font-family: 'Raleway', Helvetica;
-    font-size: 24pt;
-    font-weight: strong;
+    font-family: 'Roboto Slab', Helvetica;
+    font-size: 20pt;
+    font-weight: 700;
     line-height: 0.6em;
 }
 
 #byline {
-    font-family: 'Raleway', Helvetica;
-    font-size: 14pt;
-    font-weight: 500;
+    font-family: 'Roboto Slab', Helvetica;
+    font-size: 20pt;
+    font-weight: 100;
     line-height: 0.6em;
 }
 
@@ -116,7 +115,7 @@
 body {
 	margin: 0;
 	padding:50px;
-	font:16px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font:16px/1.5 Roboto Slab, "Roboto Slab", Helvetica, Arial, sans-serif;
 	color:#333;
 	font-weight:300;
 }
@@ -443,13 +442,15 @@ nav li a.active:hover {
 
 .post-title {
 	margin-bottom: 0;
-	font-family: 'Raleway';
+	font-family: 'Roboto Slab';
 	font-weight: bold;
+	line-height: 0.8em;
 }
 .post-meta,
 .post-meta a {
+	margin-top: 5px;
 	margin-bottom: 0;
-	font-family: 'Lato';
+	font-family: 'Roboto Slab';
 	font-size: 80%; 
 	white-space: nowrap;
 },
@@ -470,11 +471,12 @@ footer {
 }
 
 img.avatar {
-	border-radius: 40px;
+	/* border-radius: 40px;
 	-webkit-border-radius: 40px;
-	-moz-border-radius: 40px;
-	width:72px;
-	height:72px;
+	-moz-border-radius: 40px; */
+	width:200px;
+	height:200px;
+	padding-bottom: 10px;
 }
 
 img.profile {
