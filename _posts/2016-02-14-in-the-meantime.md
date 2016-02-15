@@ -6,7 +6,7 @@ categories: blog
 Since last June:
 
 + Returned to teaching
-+ Started and published the first issue of [a small press magazine](www.middle-planet.com)
++ Started and published the first issue of [a small press magazine](http://www.middle-planet.com)
 + Moved into and made significant renovations on a house
 + Got engaged to Julia
 
