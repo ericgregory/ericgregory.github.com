@@ -4,7 +4,7 @@ author:	'Eric Gregory'
 
 relative_permalinks: false
 permalink: /:categories/:title
-markdown: rdiscount
+markdown: kramdown
 rdiscount: 
   extensions: [smart]
 paginate: 5
