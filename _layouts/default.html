@@ -32,15 +32,13 @@
 				{{ content }}
 			</section>
 			<footer>
-{% if page.nobio != true %}{% if location != '' %}
-				<img class="avatar" src="{{ ASSET_PATH }}/images/me2.jpg">
-{% endif %}
+
 				<p><a href="/about/">Eric Gregory</a> teaches English, writes fiction, and co-edits <a href="http://www.middle-planet.com">Middle Planet</a>. He lives in Carrboro, North Carolina.</p>
 				<p>
 				<a href="https://twitter.com/ericgregory" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @ericgregory</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
               
-{% endif %}
+
 				<p>
 					<small>© {{ site.time | date: '%Y' }} Eric Gregory</small><br />
 					
