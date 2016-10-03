@@ -9,16 +9,16 @@
 
 #title {
     font-family: 'Roboto Slab', Helvetica;
-    font-size: 20pt;
+    font-size: 33pt;
     font-weight: 700;
-    line-height: 0.6em;
+    line-height: 1.0em;
 }
 
 #byline {
     font-family: 'Roboto Slab', Helvetica;
     font-size: 20pt;
     font-weight: 100;
-    line-height: 0.6em;
+    line-height: 1.0em;
 }
 
 .articles {
@@ -30,7 +30,7 @@
 .imageBox
 {
     color: #333333;
-    width: 100%;    
+    width: 100%;
     max-width: 800px;
     margin: 0px;
     text-align: center;
@@ -46,7 +46,7 @@
 .imageBox label
 {
     display: block;
-    background-color: #BDC3C7;    
+    background-color: #BDC3C7;
     color: #ffffff;
     padding: 5px;
     width: 70px;
@@ -57,7 +57,7 @@
 }
 
 .imageBox label:hover, .imageBox label:active
-{    
+{
     background-color: #7F8C8D;
 }
 
@@ -87,7 +87,7 @@
 .toggle:checked ~ label
 {
     background-color: transparent;
-    color: #333333;    
+    color: #333333;
 }
 
 /* Responsive iframe wrapper for YouTube embeds and suchlike */
@@ -451,7 +451,7 @@ nav li a.active:hover {
 	margin-top: 5px;
 	margin-bottom: 0;
 	font-family: 'Roboto Slab';
-	font-size: 80%; 
+	font-size: 80%;
 	white-space: nowrap;
 },
 .post-meta a:hover,
@@ -503,11 +503,11 @@ img.pull-left {
 /* Responsive Adjustments */
 
 @media print, screen and (max-width: 1050px) {
-	
+
 	div.wrapper {
 		width:600px;
 	}
-	
+
 	#banner {
 	text-align: center;
 	}
@@ -517,7 +517,7 @@ img.pull-left {
 		position:static;
 		width:auto;
 	}
-	
+
 	header {
 		background: none;
 		position: relative;
@@ -526,24 +526,24 @@ img.pull-left {
 		min-height: 0;
 		border: none;
 	}
-	
+
 	section {
 		border:1px solid #eee;
 		border-width:1px 0;
 		padding:20px 0;
 		margin:0 0 20px;
 	}
-	
+
 	header a small {
 		display:inline;
 	}
-	
+
 	header ul {
 		position:absolute;
 		right:0;
 		top:5px;
 	}
-	
+
 	footer {
 		text-align: center;
 		max-width: 400px;
@@ -556,12 +556,12 @@ img.pull-left {
 		word-wrap:break-word;
 		padding-top: 15px;
 	}
-	
+
 	div.wrapper {
 		width:auto;
 		margin: 0;
 	}
-	
+
 	#banner {
 		margin-top: 26px;
 	}
@@ -569,20 +569,20 @@ img.pull-left {
 	header {
 		padding: 0 0 15px;
 	}
-	
+
 	nav ul {
 	 position: static;
 	 margin: 0 auto;
 	}
-	
+
 	header p.view {
 		position:static;
 	}
-	
+
 	header {
 		text-align: center;
 	}
-	
+
 	pre, pre > code {
 		word-wrap:normal;
 	}

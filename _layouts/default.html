@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<title>{% if page.title %}{{ page.title }}{% else %}Notes by Eric Gregory{% endif %}</title>
-		
+		<title>{% if page.title %}{{ page.title }}{% else %}Infinite Shelf by Eric Gregory{% endif %}</title>
+
 		<link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 {% if page.blogfeed %}
 		<link rel="alternate" type="application/atom+xml" title="{{ site.name }} — Feed" href="{{ site.url }}/blog/feed.atom" />
@@ -19,7 +19,7 @@
 		<div class="wrapper">
 			<header>
 				<div id="banner">
-				<span id="title"><strong>Notes</strong></span><span id="byline"> by Eric Gregory</span>
+				<span id="title"><strong>Infinite Shelf</strong></span><br><span id="byline"> by Eric Gregory</span>
     			</div>
 				<nav><ul>
 					<li><a {% if location == 'about' %}class="active" {% endif %}href="/about/">About</a></li>
@@ -33,15 +33,15 @@
 			</section>
 			<footer>
 
-				<p><a href="/about/">Eric Gregory</a> teaches English, writes fiction, and co-edits <a href="http://www.middle-planet.com">Middle Planet</a>. He lives in Carrboro, North Carolina.</p>
+				<p><a href="/about/">Eric Gregory</a> teaches English and Creative Writing, writes fiction, and co-edits <a href="http://www.middle-planet.com">Middle Planet</a>. He lives in Carrboro, North Carolina.</p>
 				<p>
 				<a href="https://twitter.com/ericgregory" class="twitter-follow-button" data-show-count="false" data-size="large" data-dnt="true">Follow @ericgregory</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
-              
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
 				<p>
 					<small>© {{ site.time | date: '%Y' }} Eric Gregory</small><br />
-					
+
 				</p>
 			</footer>
 		</div>
