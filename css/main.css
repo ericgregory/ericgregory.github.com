@@ -3,7 +3,7 @@
 /* Custom styles */
 
 #banner {
-	text-align: right;
+	text-align: center;
 	margin-bottom: 26px;
 }
 
@@ -322,7 +322,7 @@ nav ul {
 nav li {
 	float:left;
 	height:24px;
-	width:67px;
+	width:33%;
 	border-right:1px solid #e5e5e5;
 }
 

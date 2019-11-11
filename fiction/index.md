@@ -9,6 +9,22 @@ Short stories published from 2004 to present, starting with the most recent:
 <p></p>
 <div style="margin-top: 15px;">
 </div>
+[The Fourfold Wound]() (Age of Sigmar)  
+<em>Inferno! Vol. 4</em>  
+Black Library, Fall 2019
+
+<div style="margin-top: 30px;">
+	</div>
+[The Warden in the Mountain]() (Age of Sigmar)  
+Black Library, Fall 2019
+
+<div style="margin-top: 30px;">
+	</div>
+[Bossgrot]() (Age of Sigmar)  
+Black Library, Summer 2019
+
+<div style="margin-top: 30px;">
+	</div>
 [The March Wind](http://smallbeerpress.com/lcrw/2015/07/01/lady-churchills-rosebud-wristlet-no-33/)   
 <em>LCRW</em>, July 2015  
 
